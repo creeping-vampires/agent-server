@@ -150,7 +150,7 @@ export const recommendActivitiesFunction = new GameFunction({
 export const arbitrageFunction = new GameFunction({
   name: "arbitrage",
   description:
-    "Check for arbitrage opportunities between CoinGecko and Pyth Oracle",
+    "Check for arbitrage opportunities between HyperLiquid L1 Pre Reads and Hype EVM Pyth Oracle",
   args: [] as const,
   executable: async (args, logger) => {
     try {
