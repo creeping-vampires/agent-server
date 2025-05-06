@@ -15,7 +15,8 @@
     "watch": "tsc --watch",
     "api": "ts-node src/api/server.ts",
     "api-js": "node src/api/server.js",
-    "start-all": "concurrently \"pnpm api-js\" \"pnpm dev\""
+    "start-all-dev": "concurrently \"pnpm api-js\" \"pnpm dev\"",
+    "start-all": "concurrently \"pnpm api-js\" \"pnpm start\""
   },
   "keywords": [],
   "author": "",
